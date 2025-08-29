@@ -41,7 +41,7 @@ func main() {
 	headers := cose.Headers{
 		Protected: cose.ProtectedHeader{
 			cose.HeaderLabelAlgorithm: cose.AlgorithmES256,
-			258:                       tst,
+			269:                       tst,
 		},
 		Unprotected: cose.UnprotectedHeader{
 			cose.HeaderLabelKeyID: []byte("11"),
